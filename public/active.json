@@ -1,38 +1,38 @@
 [
     {
       "id": "1",
-      "name": "walking",
-      "image": "https://image.shutterstock.com/image-vector/icon-pedestrian-simple-vector-illustration-260nw-1036810924.jpg",
-      "Time":60
-    },
-    {
-      "id": "2",
-      "name": "running",
-      "image": "https://image.shutterstock.com/image-vector/man-fast-run-icon-rush-260nw-1542414617.jpg",
-      "Time":60
-    },
-    {
-      "id": "3",
-      "name": "cycling",
-      "image": "https://image.shutterstock.com/image-vector/bike-icon-art-abstract-cycle-260nw-1691335783.jpg",
-      "Time":60
-    },
-    {
-      "id": "4",
       "name": "Walking",
       "image": "https://image.shutterstock.com/image-vector/icon-pedestrian-simple-vector-illustration-260nw-1036810924.jpg",
       "Time":60
     },
     {
-      "id": "5",
-      "name": "running",
+      "id": "2",
+      "name": "Running",
       "image": "https://image.shutterstock.com/image-vector/man-fast-run-icon-rush-260nw-1542414617.jpg",
       "Time":60
     },
     {
-      "id": "6",
-      "name": "cycling",
+      "id": "3",
+      "name": "Cycling",
       "image": "https://image.shutterstock.com/image-vector/bike-icon-art-abstract-cycle-260nw-1691335783.jpg",
+      "Time":60
+    },
+    {
+      "id": "4",
+      "name": "Seat-ups",
+      "image": "https://image.shutterstock.com/image-vector/fitness-workout-woman-doing-sports-260nw-1910439340.jpg",
+      "Time":60
+    },
+    {
+      "id": "5",
+      "name": "Push-ups",
+      "image": "https://image.shutterstock.com/image-vector/active-caucasian-man-sportswear-doing-260nw-762868594.jpg",
+      "Time":60
+    },
+    {
+      "id": "6",
+      "name": "Yoga",
+      "image": "https://image.shutterstock.com/image-vector/set-slim-sportive-young-woman-260nw-1556386601.jpg",
       "Time":60
     }
 ]

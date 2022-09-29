@@ -12,6 +12,9 @@ const Activity = ({activity}) => {
               <h3>{name}</h3>
               <h3>Time:{Time}s</h3>
             </div>
+            <div>
+                <button className='btn-cart'>Add to list</button>
+            </div>
             </div>
             
             
