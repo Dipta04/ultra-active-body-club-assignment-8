@@ -1,0 +1,14 @@
+.activity-container{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    position: relative;
+    margin-top: 5px;
+}
+.activity-container img{
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    margin: 7px;
+}
