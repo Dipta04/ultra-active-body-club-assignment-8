@@ -14,7 +14,7 @@ const Cart = () => {
 
             <div>
                 <h5>Add a Break</h5>
-                <div>
+                <div className='break-time'>
                     <button>10s</button>
                     <button>20s</button>
                     <button>30s</button>
@@ -27,6 +27,10 @@ const Cart = () => {
                <input type=""/>
                <h5>Break Time</h5>
                <input type="" />
+            </div>
+
+            <div>
+                <button>Activity Completed</button>
             </div>
 
         </div>
