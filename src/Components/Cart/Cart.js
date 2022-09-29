@@ -8,6 +8,8 @@ const Cart = ({time}) => {
       const increseCountThree=()=>setCount(30);
       const increseCountFour=()=>setCount(40);
     
+      localStorage.setItem("count",count);
+      
 
 
     return (
@@ -16,8 +18,8 @@ const Cart = ({time}) => {
             <h4>Dipta Karmakar</h4>
             <p><small>Chittagong,Bangladesh</small></p>
             <p>Weight:70kg</p>
-            <p>Height:5.6</p>
-            <p>Age:20</p>
+            <p>Height:5.6 inch</p>
+            <p>Age:20 years</p>
             </div>
 
             <div>
@@ -39,6 +41,7 @@ const Cart = ({time}) => {
             <div>
                 <button>Activity Completed</button>
             </div>
+            
 
         </div>
     );
