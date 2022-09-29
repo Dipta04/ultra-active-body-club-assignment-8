@@ -12,6 +12,9 @@ const Shop = () => {
         .then(data=>setActivities(data))
     },[])
 
+    const [time,setTime]=useState(0);
+    const increaseTime=()=>setTime(time+60);
+
     return (
         <div className='shop-container'>
 
@@ -20,6 +23,7 @@ const Shop = () => {
                     activities.map(activity=><Activity
                     key={activity.id}
                     activity={activity}
+                    increaseTime={increaseTime}
                     >
                     </Activity>)
                 }
@@ -27,7 +31,7 @@ const Shop = () => {
             </div>
 
             <div className='cart-container'>
-                <Cart></Cart>
+                <Cart time={time}></Cart>
 
             </div>
             

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "./Cart.css"
 
-const Cart = () => {
+const Cart = ({time}) => {
       const [count,setCount]=useState(0);
       const increaseCountOne=()=>setCount(10);
       const increaseCountTwo=()=>setCount(20);
@@ -31,7 +31,7 @@ const Cart = () => {
             </div>
 
             <div>
-               <h5>Exercise Time:</h5>
+               <h5>Exercise Time:{time}</h5>
                <h5>Break Time:{count}</h5>
                
             </div>
