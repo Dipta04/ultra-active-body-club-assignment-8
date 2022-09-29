@@ -1,7 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./Cart.css"
 
 const Cart = () => {
+      const [count,setCount]=useState(0);
+      const increaseCountOne=()=>setCount(10);
+      const increaseCountTwo=()=>setCount(20);
+      const increseCountThree=()=>setCount(30);
+      const increseCountFour=()=>setCount(40);
+    
+
+
     return (
         <div>
             <div>
@@ -15,18 +23,17 @@ const Cart = () => {
             <div>
                 <h5>Add a Break</h5>
                 <div className='break-time'>
-                    <button>10s</button>
-                    <button>20s</button>
-                    <button>30s</button>
-                    <button>40s</button>
+                    <button onClick={increaseCountOne}>10s</button>
+                    <button onClick={increaseCountTwo}>20s</button>
+                    <button onClick={increseCountThree}>30s</button>
+                    <button onClick={increseCountFour}>40s</button>
                 </div>
             </div>
 
             <div>
-               <h5>Exercise Time</h5>
-               <input type=""/>
-               <h5>Break Time</h5>
-               <input type="" />
+               <h5>Exercise Time:</h5>
+               <h5>Break Time:{count}</h5>
+               
             </div>
 
             <div>
